@@ -42,4 +42,13 @@
     <string name="ContactNumberUpdate">077 103 5628</string>
     <string name="UpdateB1">Update Details</string>
     <string name="UpdateUIb">Confirm Update</string>
+    <string name="YesButton">YES</string>
+    <string name="Nobutton">NO</string>
+    <string name="BackHome">Home</string>
+    <string name="back">Back to home</string>
+    <string name="post">Post Ad</string>
+    <string name="deliver">Set Delivery Details</string>
+    <string name="ad">Post Ad</string>
+    <string name="delivery">Add Delivery Details</string>
+    <string name="home">Home</string>
 </resources>
