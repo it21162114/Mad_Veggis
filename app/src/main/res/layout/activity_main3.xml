@@ -47,19 +47,6 @@
         app:layout_constraintVertical_bias="0.016" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="@dimen/EditBW"
-        android:layout_height="@dimen/EditBH"
-        android:background="#73E177"
-        android:text="@string/EditDetailsBut"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.819" />
-
-    <Button
         android:id="@+id/confirm"
         android:layout_width="@dimen/ConfirmBW"
         android:layout_height="@dimen/ConfirmBH"
@@ -70,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.743" />
+        app:layout_constraintVertical_bias="0.755" />
 
     <TextView
         android:id="@+id/textView17"
@@ -99,7 +86,7 @@
         app:layout_constraintHorizontal_bias="0.394"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.539" />
+        app:layout_constraintVertical_bias="0.532" />
 
     <TextView
         android:id="@+id/textView14"

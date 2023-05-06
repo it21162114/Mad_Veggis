@@ -12,7 +12,7 @@
         android:layout_height="45dp"
         android:background="#73E177"
         android:backgroundTint="#73E177"
-        android:text="@string/UpdateBu"
+        android:text="@string/UpdateB1"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

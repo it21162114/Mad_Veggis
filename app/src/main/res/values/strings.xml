@@ -32,4 +32,14 @@
     <string name="EditB4">Edit</string>
     <string name="UpdateBu">Update Seleted Details</string>
     <string name="DeleteBu">Delete Seleted Details</string>
+    <string name="editn">Name</string>
+    <string name="updatename">Kavishka Iroshan</string>
+    <string name="AddressUi">Address</string>
+    <string name="AddressUpdate">100,welivita,Malabe</string>
+    <string name="EmailUii">Email</string>
+    <string name="EmailUpdate">kavishkairoshan075@gmail.com</string>
+    <string name="ContactNumberUi">Contact Number</string>
+    <string name="ContactNumberUpdate">077 103 5628</string>
+    <string name="UpdateB1">Update Details</string>
+    <string name="UpdateUIb">Confirm Update</string>
 </resources>
