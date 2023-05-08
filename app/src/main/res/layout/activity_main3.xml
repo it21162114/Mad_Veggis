@@ -6,26 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227"
-        app:srcCompat="?android:attr/actionModeFindDrawable" />
-
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/textView16"
         android:layout_width="410dp"
         android:layout_height="71dp"
-        android:background="#FF73E177"
-        android:textAlignment="gravity"
-        android:textSize="34sp"
-        android:textStyle="bold"
+        android:background="#73E177"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -33,124 +18,86 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="@dimen/AppNameW2"
-        android:layout_height="@dimen/AppNameH2"
-        android:text="@string/heading"
-        android:textSize="38sp"
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="@dimen/SearchWidth"
+        android:layout_height="@dimen/SearchHeight"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintHorizontal_bias="0.912"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016" />
-
-    <Button
-        android:id="@+id/confirm"
-        android:layout_width="@dimen/ConfirmBW"
-        android:layout_height="@dimen/ConfirmBH"
-        android:background="#73E177"
-        android:text="@string/ConfirmDetailsBut"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="@string/AppName2"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ContactNumberDetails"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.394"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/AddressDetails"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.412"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.424" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/EmailDetails"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/NameDetails"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.255"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
+        app:layout_constraintVertical_bias="0.021" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="@dimen/MenuBarW"
-        android:layout_height="@dimen/MenuBarH"
+        android:id="@+id/imageView7"
+        android:layout_width="@dimen/DropDownWidth"
+        android:layout_height="@dimen/DropDownHeight"
+        android:layout_marginBottom="668dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="@+id/textView18"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="47dp"
-        android:layout_height="47dp"
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="158dp"
+        android:layout_height="62dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/AppName"
+        android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.377"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016"
-        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+        app:layout_constraintVertical_bias="0.013" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="282dp"
+        android:layout_height="109dp"
+        android:background="@color/material_dynamic_neutral80"
+        android:backgroundTint="@color/white"
+        android:text="Are u Sure want to delete Ad ?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="103dp"
+        android:layout_height="51dp"
+        android:background="@color/teal_700"
+        android:text="Yes"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="101dp"
+        android:layout_height="51dp"
+        android:background="@android:color/holo_red_light"
+        android:text="No"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
 </androidx.constraintlayout.widget.ConstraintLayout>

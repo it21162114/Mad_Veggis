@@ -1,4 +1,4 @@
-package com.example.mad
+package com.example.seller
 
 import org.junit.Test
 

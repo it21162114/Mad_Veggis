@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.mad'
+    namespace 'com.example.seller'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.mad"
+        applicationId "com.example.seller"
         minSdk 24
         targetSdk 33
         versionCode 1
