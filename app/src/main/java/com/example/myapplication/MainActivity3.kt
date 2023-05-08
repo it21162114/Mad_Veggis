@@ -1,4 +1,4 @@
-package com.example.mad
+package com.example.myapplication
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,13 +11,14 @@ class MainActivity3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
+        setContentView(R.layout.activity_main)
+
         setContentView(R.layout.activity_main3)
 
-        var btnNextTo = findViewById<Button>(R.id.confirm)
-        btnNextTo.setOnClickListener{
-            val intent = Intent(this, Veggis::class.java)
+        var buttonNext = findViewById<Button>(R.id.button4)
+        buttonNext.setOnClickListener {
+            val intent = Intent(this, MainActivity9::class.java)
             startActivity(intent)
         }
-
     }
 }

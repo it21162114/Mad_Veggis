@@ -1,4 +1,4 @@
-package com.example.mad
+package com.example.myapplication
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,18 +6,20 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 
-class UpdateUI : AppCompatActivity() {
+class MainActivity5 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
-        setContentView(R.layout.activity_update_ui)
+        setContentView(R.layout.activity_main)
 
-        var btnNextTo = findViewById<Button>(R.id.button2)
-        btnNextTo.setOnClickListener{
-            val intent = Intent(this, Veggis::class.java)
+        setContentView(R.layout.activity_main5)
+
+        var buttonNext = findViewById<Button>(R.id.button12)
+        buttonNext.setOnClickListener {
+            val intent = Intent(this, MainActivity6::class.java)
             startActivity(intent)
         }
-
     }
 }
