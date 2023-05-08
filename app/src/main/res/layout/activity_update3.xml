@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".UpdateActivity3">
 
     <TextView
         android:id="@+id/textView2"
@@ -69,7 +69,7 @@
         android:id="@+id/text01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Card Details"
+        android:text="Update Card Details"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -159,7 +159,7 @@
     <EditText
         android:id="@+id/editTextNumber2"
         android:layout_width="341dp"
-        android:layout_height="79dp"
+        android:layout_height="82dp"
         android:ems="10"
         android:inputType="number"
         android:text="@string/cvc"
@@ -173,12 +173,12 @@
         app:layout_constraintVertical_bias="0.747" />
 
     <Button
-        android:id="@+id/buttonsave"
+        android:id="@+id/button"
         android:layout_width="128dp"
         android:layout_height="56dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#2CAE08"
-        android:text="@string/savebtn"
+        android:text="@string/updatebtn1"
         android:textSize="20sp"
         app:cornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -245,7 +245,6 @@
         app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439" />
-
+        app:layout_constraintVertical_bias="0.437" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
